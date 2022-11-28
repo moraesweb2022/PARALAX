@@ -1,0 +1,157 @@
+/*CONFIGURAÇÕES PADRÕES DA PÁGINA*/
+body, html {
+    margin: 0;
+    font: 16px "Lato" sans-serif;
+    color: #777;
+    height: 100%;
+
+}
+
+h3 {
+    text-transform: uppercase;
+    color: #111;
+    text-align: center;
+}
+
+a {
+    color: #0B0B3B;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: hsl(29, 96%, 36%);
+}
+
+
+
+p {
+    margin-bottom: 10px;
+}
+
+.conteudo {
+    color: #5F04B4;
+    background-color: #D8D8D8;
+    text-align: justify;
+    padding: 50px 80px;
+}
+
+/*EFEITO PARALAX*/
+.caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6, .caixa7, .caixa8, .caixa9, .caixa10, .caixa11, 
+.caixa12, .caixa13, .caixa14, .caixa15, .caixa16, .caixa17, .caixa18, .caixa19, .caixa20, .caixa21, .caixa22, .caixa23 {
+    height: 100%; 
+    opacity: 0.5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+
+}
+.caixa1 {
+    background-image: url(img/capaRedimensionada.png);
+}
+.caixa2 {
+    background-image: url(img/saoFrancisco.png);
+}
+.caixa3 {
+    background-image: url(img/graomogol4.png);
+}
+.caixa4 {
+    background-image: url(img/montes4.jpg);
+}
+.caixa5 {
+    background-image: url(img/uberlandia.jpg);
+}
+
+.caixa6 {
+    background-image: url(img/rio_araguari.jpg);
+}
+
+.caixa7 {
+    background-image: url(img/pirenopolis2.jpg);
+}
+
+.caixa8 {
+    background-image: url(img/cidade-de-goias-velho2.jpg);
+}
+.caixa9 {
+    background-image: url(img/uberaba.png);
+}
+
+.caixa10 {
+    background-image: url(img/delta.jpg);
+}
+
+.caixa11 {
+    background-image: url(img/brasilia.jpg);
+}
+.caixa12 {
+    background-image: url(img/pico_bandeira.jpg);
+}
+
+.caixa13 {
+    background-image: url(img/ouroPreto2.jpg);
+    
+}
+
+.caixa14 {
+    background-image: url(img/jardim-de-maytrea_2.jpg);    
+}
+
+.caixa15 {
+    background-image: url(img/maringa.jpg);    
+}
+
+.caixa16 {
+    background-image: url(img/foz-do-iguacu-1.jpg);    
+}
+
+.caixa17 {
+    background-image: url(img/puerto1.jpg);    
+}
+.caixa18 {
+    background-image: url(img/ponte.jpg);    
+}
+.caixa19 {
+    background-image: url(img/Chapada_Diamantina_2.jpg);    
+}
+
+.caixa20 {
+    background-image: url(img/irai.jpg);    
+}
+
+.caixa21 {
+    background-image: url(img/romaria.jpg);    
+}
+
+.caixa22 {
+    background-image: url(img/estrela-do-sul.jpg);    
+}
+
+.caixa23 {
+    background-image: url(img/ribeirao_bom_jardim.jpg);    
+}
+
+
+.conteudo-titulo {
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    
+    
+}
+
+.conteudo-titulo span.titulo {
+    color: #fff;
+    background-color: #111;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
